@@ -5,12 +5,12 @@ USE eCommerce;
 */
 
 /*
-The data we shall query & extract is based on the business requirement of 3 year sales analysis.
+The data we shall query & extract is based on the business requirement of 3 year analysis.
 Hence, we have a set of columns that are dimensions and metrics, these form the basis of our 
 visualisations contained in our dashboards.
 
 Product,ProductSubCategory and ProductCategory dimensions are part of the data source that has the
-potential to be used in subsequent visualisations the student wishes to pursue
+potential to be used in subsequent visualisations.
 */
 select * from ProductSubcategory;
 select * from ProductCategory;
